@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0726E5071D587FC80066B178 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0726E5061D587FC80066B178 /* main.cpp */; };
+		0726E50E1D587FDB0066B178 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0726E50D1D587FDB0066B178 /* OpenCL.framework */; };
+		0726E5141D5882940066B178 /* ClHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0726E5101D5882940066B178 /* ClHelper.cpp */; };
+		0726E5151D5882940066B178 /* Bitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0726E5131D5882940066B178 /* Bitmap.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0726E5011D587FC80066B178 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0726E5031D587FC80066B178 /* OpenCLTest4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenCLTest4; sourceTree = BUILT_PRODUCTS_DIR; };
+		0726E5061D587FC80066B178 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0726E50D1D587FDB0066B178 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+		0726E50F1D5882940066B178 /* ClHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClHelper.h; sourceTree = "<group>"; };
+		0726E5101D5882940066B178 /* ClHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClHelper.cpp; sourceTree = "<group>"; };
+		0726E5111D5882940066B178 /* bitmapspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitmapspec.h; sourceTree = "<group>"; };
+		0726E5121D5882940066B178 /* Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bitmap.h; sourceTree = "<group>"; };
+		0726E5131D5882940066B178 /* Bitmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bitmap.cpp; sourceTree = "<group>"; };
+		0726E5161D5882BB0066B178 /* MyError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyError.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0726E5001D587FC80066B178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0726E50E1D587FDB0066B178 /* OpenCL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0726E4FA1D587FC80066B178 = {
+			isa = PBXGroup;
+			children = (
+				0726E50D1D587FDB0066B178 /* OpenCL.framework */,
+				0726E5051D587FC80066B178 /* OpenCLTest4 */,
+				0726E5041D587FC80066B178 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0726E5041D587FC80066B178 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0726E5031D587FC80066B178 /* OpenCLTest4 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0726E5051D587FC80066B178 /* OpenCLTest4 */ = {
+			isa = PBXGroup;
+			children = (
+				0726E50F1D5882940066B178 /* ClHelper.h */,
+				0726E5101D5882940066B178 /* ClHelper.cpp */,
+				0726E5161D5882BB0066B178 /* MyError.h */,
+				0726E5111D5882940066B178 /* bitmapspec.h */,
+				0726E5121D5882940066B178 /* Bitmap.h */,
+				0726E5131D5882940066B178 /* Bitmap.cpp */,
+				0726E5061D587FC80066B178 /* main.cpp */,
+			);
+			path = OpenCLTest4;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0726E5021D587FC80066B178 /* OpenCLTest4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0726E50A1D587FC80066B178 /* Build configuration list for PBXNativeTarget "OpenCLTest4" */;
+			buildPhases = (
+				0726E4FF1D587FC80066B178 /* Sources */,
+				0726E5001D587FC80066B178 /* Frameworks */,
+				0726E5011D587FC80066B178 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCLTest4;
+			productName = OpenCLTest4;
+			productReference = 0726E5031D587FC80066B178 /* OpenCLTest4 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0726E4FB1D587FC80066B178 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Motoya;
+				TargetAttributes = {
+					0726E5021D587FC80066B178 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0726E4FE1D587FC80066B178 /* Build configuration list for PBXProject "OpenCLTest4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0726E4FA1D587FC80066B178;
+			productRefGroup = 0726E5041D587FC80066B178 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0726E5021D587FC80066B178 /* OpenCLTest4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0726E4FF1D587FC80066B178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0726E5141D5882940066B178 /* ClHelper.cpp in Sources */,
+				0726E5071D587FC80066B178 /* main.cpp in Sources */,
+				0726E5151D5882940066B178 /* Bitmap.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0726E5081D587FC80066B178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0726E5091D587FC80066B178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0726E50B1D587FC80066B178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0726E50C1D587FC80066B178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0726E4FE1D587FC80066B178 /* Build configuration list for PBXProject "OpenCLTest4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0726E5081D587FC80066B178 /* Debug */,
+				0726E5091D587FC80066B178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0726E50A1D587FC80066B178 /* Build configuration list for PBXNativeTarget "OpenCLTest4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0726E50B1D587FC80066B178 /* Debug */,
+				0726E50C1D587FC80066B178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0726E4FB1D587FC80066B178 /* Project object */;
+}
